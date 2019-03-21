@@ -62,9 +62,7 @@ input{
     color: #777777;
 }
 textarea{
-    height: 250px;
     margin-top: 5px;
-    rows: 10;
 }
 ol,ul{
     margin-left: 20px;
