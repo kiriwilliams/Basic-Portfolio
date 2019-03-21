@@ -1,3 +1,12 @@
+/* 
+
+To do: 
+1. textarea height
+2. sticky footer 
+
+*/
+
+
 *{
     box-sizing: border-box;
 }
@@ -50,9 +59,12 @@ footer{
 input{
     width: 100%;
     margin: 5px 0;
+    color: #777777;
 }
 textarea{
     height: 250px;
+    margin-top: 5px;
+    rows: 10;
 }
 ol,ul{
     margin-left: 20px;
@@ -152,4 +164,14 @@ td{
 }
 #portfolio tr{
     width: 50%;
+}
+#submit{
+    background-color: #4aaaa5;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    width: 75px;
+}
+#submit:hover{
+    background-color: #26807b;
 }
